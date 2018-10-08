@@ -1,4 +1,4 @@
-FROM scolagreco/docker-alpine:v3.7.0
+FROM scolagreco/docker-alpine:v3.8.0
 
 ENV PHPIZE_DEPS="autoconf file g++ gcc libc-dev make pkgconf re2c" \ 
 	PHP_INI_DIR="/usr/local/etc/php" \ 
@@ -28,7 +28,8 @@ RUN apk add --no-cache --virtual .persistent-deps \
 	\
 	apk add --no-cache --virtual .fetch-deps \
 		gnupg \
-		openssl \
+#		openssl \
+		libressl \
 	; \
 	\
 	mkdir -p /usr/src; \

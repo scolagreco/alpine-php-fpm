@@ -10,7 +10,7 @@ Repository con il dockerfile per creare una Docker Image di PHP-FPM su Alpine.
 
 ## Info
 
-Attualmente le versioni 3.7.0 di Alpine e 7.1.1 di PHP.
+Attualmente le versioni 3.8.0 di Alpine e 7.1.1 di PHP.
 
 E' una versione ottimizzata di quello disponibile qui:
 
@@ -21,6 +21,6 @@ E' una versione ottimizzata di quello disponibile qui:
 - `latest` [(Dockerfile)](https://github.com/scolagreco/alpine-php-fpm/blob/master/Dockerfile)
 - [`v7.1.1`](https://github.com/scolagreco/alpine-php-fpm/releases/tag/v7.1.1)
 
-###Immagine di partenza
+### Immagine di partenza
 
-- [`Alpine:v3.7.0`](https://github.com/scolagreco/docker-alpine/releases/tag/v3.7.0)
+- [`Alpine:v3.8.0`](https://github.com/scolagreco/docker-alpine/releases/tag/v3.8.0)
